@@ -1,0 +1,29 @@
+{
+  "name": "daweb.cf",
+  "version": "0.0.1",
+  "description": "Personal Website hosted at daweb.cf",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.9.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/styles.scss css/index.css --output-style compressed",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwahrens/website.git"
+  },
+  "author": "Drew Ahrens",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dwahrens/website/issues"
+  },
+  "homepage": "https://github.com/dwahrens/website#readme"
+}
