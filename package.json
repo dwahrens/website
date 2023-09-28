@@ -1,14 +1,14 @@
 {
-  "name": "daweb.cf",
+  "name": "dwahrens.com",
   "version": "0.0.1",
-  "description": "Personal Website hosted at daweb.cf",
+  "description": "Personal Website hosted at dwahrens.com",
   "main": "index.js",
   "dependencies": {
     "bulma": "^0.9.1",
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "node-sass": "^5.0.0",
+    "sass": "^1.58.3",
     "prettier": "^2.2.1"
   },
   "scripts": {
