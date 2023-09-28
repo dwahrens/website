@@ -12,7 +12,7 @@
     "prettier": "^2.2.1"
   },
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url sass/styles.scss css/index.css --output-style compressed",
+    "css-build": "sass --no-source-map sass/styles.scss css/index.css --style compressed",
     "css-watch": "npm run css-build -- --watch",
     "start": "npm run css-watch"
   },
